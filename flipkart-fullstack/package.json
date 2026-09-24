@@ -1,0 +1,14 @@
+{
+  "name": "flipkart-fullstack-clone",
+  "version": "1.0.0",
+  "description": "Complete Full-Stack Flipkart Clone with Frontend, Express Backend, and SQLite Database",
+  "scripts": {
+    "install:all": "cd backend && npm install",
+    "start": "cd backend && node server.js",
+    "dev": "cd backend && node --watch server.js",
+    "seed": "cd backend && node database/seed.js"
+  },
+  "keywords": ["flipkart", "ecommerce", "fullstack", "react", "express", "sqlite", "node"],
+  "author": "Antigravity",
+  "license": "MIT"
+}
